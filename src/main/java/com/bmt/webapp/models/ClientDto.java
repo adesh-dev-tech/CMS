@@ -16,7 +16,7 @@ public class ClientDto {
 	private String phone;
 	private String address;
 	
-	@NotEmpty(message = "the status is required")
+	@NotEmpty(message = "the status is required  ")
 	private String status;
 
 	public String getFirstName() {
